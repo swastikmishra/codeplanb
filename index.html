@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to Glitch!</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId            : '129919870442219',
+          autoLogAppEvents : true,
+          xfbml            : true,
+          version          : 'v2.12'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
+    <section class="hero is-primary is-fullheight is-medium banner">
+      <!-- Hero head: will stick at the top -->
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="https://cdn.glitch.com/ca8c831d-c55e-4970-bb5b-b191d733be6d%2FLogo4.png?1516463286980" alt="CodePlanB">
+              </a>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item is-active">
+                  Home
+                </a>
+                <a class="navbar-item">
+                  Find Talent
+                </a>
+                <a class="navbar-item">
+                  Find Job
+                </a>
+                <span class="navbar-item social-icons">
+                  <a href="https://www.facebook.com/CodePlanB/" class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fa fa-facebook"></i>
+                    </span>
+                  </a>
+                </span>
+                <span class="navbar-item social-icons">
+                  <a href="https://twitter.com/codeplanb" class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fa fa-twitter"></i>
+                    </span>
+                  </a>
+                </span>
+                <span class="navbar-item social-icons">
+                  <a href="https://www.instagram.com/codeplanb/" class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fa fa-instagram"></i>
+                    </span>
+                  </a>
+                </span>
+                <span class="navbar-item social-icons">
+                  <a href="https://in.linkedin.com/company/codeplanb" class="button is-primary is-inverted">
+                    <span class="icon">
+                      <i class="fa fa-linkedin"></i>
+                    </span>
+                  </a>
+                </span>
+                <span class="navbar-item social-icons">
+                  <a class="button is-primary is-inverted" onclick="toggleWhatsappModal(true)">
+                    <span class="icon">
+                      <i class="fa fa-whatsapp"></i>
+                    </span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      
+      <div class="modal" id="whatsappModal">
+        <div class="modal-background"></div>
+        <div class="modal-card">
+          <header class="modal-card-head">
+            <p class="modal-card-title">Whatsapp Us</p>
+            <button class="delete" aria-label="close" onclick="toggleWhatsappModal(false)"></button>
+          </header>
+          <section class="modal-card-body" style="color: #444 !important;text-align: center;">
+            <i style="color: #0fc10f;" class="fa fa-whatsapp fa-3x"></i>
+            <p>Our experts are waiting to help you achieve your future goals. <br/> WhatsApp us on <a style="color: #2196F3;" href="
+https://api.whatsapp.com/send?phone=+971562634369&text=Can%20you%20help%20me%20with%20....."><b>+971562634369</b></a></p>
+          </section>
+          <footer class="modal-card-foot">
+            <button class="button" onclick="toggleWhatsappModal(false)">Cancel</button>
+          </footer>
+        </div>
+      </div>
+    
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container">
+            <h4 class="title">FRESH</h4>
+            <h4 class="title">TALENT <i class="fa fa-plus"></i></h4>
+            <h4 class="title">TOP</h4>
+            <h4 class="title">EMPLOYERS</h4>
+            <p>create  your  future  with  us</p>
+            <a>Find Job</a>
+            <a>Find Talent</a>
+<!--             <a class="fullWidth">Find Freelancers</a> -->
+        </div>
+      </div>
+
+    </section>
+    
+    <section class="hero typeOf">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <a href="#"><i class="fa fa-pencil-square"></i> RESUME WRITING</a>
+          <a href="#"><i class="fa fa-bullhorn"></i> RESUME BROADCAST</a>
+          <a href="#"><i class="fa fa-file-text"></i> RESUME HIGHLIGHT</a>
+          <a href="#"><i class="fa fa-bolt" style="background-color: #08384c;color: #fff;"></i> EMPLOYER ZONE</a>
+        </div>
+      </div>
+    </section>
+    
+    <section class="hero about_us">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1>About Us</h1>
+          <p>
+            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.<br/>
+            I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <div class="container-fluid footer">
+      <div class="columns">
+        <div class="column is-10 is-offset-1">
+          <h1>Contact Us</h1>
+          <p>Over the phone or online</p>
+          <div class="column is-half contact_details">
+            <a href="mailto:yeswecan@codeplanb.com"><p><i class="fa fa-envelope"></i>yeswecan@codeplanb.com</p></a>
+            <a href="tel:+91-9555013013"><p><i class="fa fa-phone"></i>+91-9555013013</p></a>
+            <br/>
+            <p>
+              Business Bay, Duabi, UAE<br/>
+              San Francisco, CA 94158
+            </p>
+            <iframe width="600" height="450" frameborder="0" style="border: 0;width: 100%;height: 200px;padding-left: 30px;margin-top: 30px;"
+            src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJV_Ql7y1oXz4RDpVweQnE1D0&key=AIzaSyAgXbXobPUGP0QlfI4e91oKEKh8mCCR584" allowfullscreen></iframe>
+          </div>
+          <div class="column is-half">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="fb-customerchat"
+page_id="EAAB2KVO6GusBANrK8FcVcPuJEiZA91bq9Npv06Nyc30DDdhBgm6KLZBt2yQ4htd24RDxyZA8bW0aruAbGYOtSdVjWskIEPO9OzVZANVcicV8uakWdjQoxDZB84EiA8ZAUxjY3hqeHWfdcxFvtr322wkFeyKAZAOeKSrONmKrZCpH4wZDZD"
+     ref="home_msgs"
+     theme_color="#444"
+     logged_in_greeting="Welcome to CodePlanB"
+     logged_out_greeting="<Welcome to CodePlanB>">
+    </div>
+    
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+    
+  </body>
+</html>
